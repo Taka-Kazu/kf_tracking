@@ -1,0 +1,6 @@
+<launch>
+
+  <include file="$(find human_detection)/launch/human_for_3dmap.launch"/>
+  <include file="$(find kf_tracking)/launch/human_tracking.launch"/>
+
+</launch>
